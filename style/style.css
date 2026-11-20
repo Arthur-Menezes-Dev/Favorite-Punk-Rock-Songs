@@ -40,3 +40,18 @@ footer{
  width: ;
  Height: ;
 }
+
+.verse{
+  background-color:#B22222;
+  color: yellow;
+  text-align: start;
+  border-top: solid 3px #FF7F50;
+  border-bottom: solid 3px #FF7F50;
+  font-style: italic;
+  line-height: 0.5;
+}
+
+.verseParagraph{
+  margin-left: 10px;
+  line-height: 0.5;
+}
