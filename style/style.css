@@ -41,6 +41,11 @@ footer{
  Height: ;
 }
 
+.imgSongs{
+  width: 150px;
+  height: auto;
+}
+
 .verse{
   background-color:#B22222;
   color: yellow;
@@ -48,10 +53,20 @@ footer{
   border-top: solid 3px #FF7F50;
   border-bottom: solid 3px #FF7F50;
   font-style: italic;
-  line-height: 0.5;
+  line-height: 0.9;
 }
 
 .verseParagraph{
   margin-left: 10px;
   line-height: 0.5;
+  display: flex;
+  flex-wrap: wrap; 
 }
+
+.stateMind{
+  display: flex;
+  justify-content: center ;
+  align-items:center ;
+  flex-direction:row ;
+  margin-bottom: 10px;
+} /*add media queries for bigger layout*/
