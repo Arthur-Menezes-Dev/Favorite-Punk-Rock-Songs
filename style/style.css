@@ -1,14 +1,15 @@
 html{
-  background-color: ;
+  background: linear-gradient(to bottom, #1E90FF,#F0F8FF);
   text-align: center;
   padding: 0;
   margin: 0;
+  border: brown solid 5px;
 }
 
 #container{
   text-align: center;
   background-color: ;
-  Display: ;
+  Display: flex ;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -19,6 +20,7 @@ html{
 nav{
   width: ;
   Height: ;
+  box-shadow: 5px 5px 5px; 
 }
 
 header{
@@ -37,13 +39,54 @@ section{
 }
 
 footer{
- width: ;
- Height: ;
+ width: auto ;
+ Height: auto;
+  background-color: #DC143C;
+  border-color: Auto;
+  font-family: Courier, monospace;
+  box-shadow: 5px 5px 2px ;
+}
+
+footer h2{
+  text-shadow: 5px 5px 2px black;
+  Display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#footerTitle{
+   width: auto ;
+ Height: auto;
+  background-color: #DC143C;
+  box-shadow: 5px 5px 2px black;
+  font-family: Courier, monospace;
+  
+}
+
+#footerButtons{
+   width: auto ;
+ Height: auto;
+  background: linear-gradient(to bottom, #DC143C,#F0F8FF);
+  text-shadow: 5px 5px 20x;
+}
+
+.punkSessions{
+  background: linear-gradient(#FF6347,#FFA07A,#FA8072,#F0F8FF);
+  border: Solid 5px #8B4513;
+  margin: 4px;
+  box-shadow: 5px 5px 5px black;
 }
 
 .imgSongs{
   width: 150px;
   height: auto;
+  border: Solid 5px #8B4513;
+  box-shadow: 5px 5px 2px;
+}
+
+.sessionTitle{
+  border-bottom: #8B4513 solid 10px;
 }
 
 .verse{
@@ -65,8 +108,68 @@ footer{
 
 .stateMind{
   display: flex;
-  justify-content: center ;
+  justify-content: space-around ;
   align-items:center ;
   flex-direction:row ;
   margin-bottom: 10px;
-} /*add media queries for bigger layout*/
+  
+} /add media queries for bigger layout/
+
+.stateMind img{
+  border: Solid 5px #8B4513;
+}
+
+.font1{
+  font-family: Stencil Std, fantasy ;
+  font-size: 55px;
+  color: red;
+  text-shadow: 5px 5px 5px black;
+}
+
+.font2{
+  font-family: American Typewriter, serif ;
+  font-size: 35px;
+  color: white;
+}
+
+.font3{
+  font-family: American Typewriter, serif;
+  font-size: 20px;
+  color: aliceblue ;
+}
+
+#asomPic1{
+  width: 150px;
+  height: 150px;
+}
+
+navLi{
+  border-left: 1px solid ;
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color: #0000CD;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  font-family: OCR A Std, monospace;
+}
+
+.navbar a{
+  color:#FA8072 ;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color:#191970;
+  color: #FF7F50;
+}
+
+.navbar li{
+  float: left;
+  border-right: #8B4513 1px solid;
+}
